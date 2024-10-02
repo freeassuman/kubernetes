@@ -1,0 +1,21 @@
+Create Space [A new client environment you can say]
+ 
+Create external feed [With the help of IAM user secret key and access key, pull application docker images from ECR repo, this set-up is space level]
+ 
+Create Project Groups - [A Group of applications like Digital project group will have digital applications, like BaNCS project will have BaNCS applications, this set-up is space level]
+ 
+Create Teams  [L1 and L2 etc, this is actually a group which will define access like Active Directory group, this is global to Octopus ]
+ 
+Add user and access to Teams [ Here what are the all users will have access, to any particular entire space, or any particular projects or environments, and what level of Policy permission will be applied those things to be selected]
+ 
+* Permission Policy [This is already created for L1, L2 and DevOPs L3 as per RBAC, which to be attached/used in all the newly Teams, this is global to Octopus]
+ 
+Create Environment [like SIT, UAT, PRS, Prod as per environment requirement, this set-up is space level]
+ 
+Create Step templates [Templates like Verify deployment status, SPA service, SPA Deployment, BS service, BS deployment, Deployment approval steps. This set-up is space level
+ 
+Lifecycle for this Space [taking different environments reference in sequence life cycles to be created, , this set-up is space level]
+ 
+Add projects [Each applications is a project. Create Channels with the help of life cycle. Project don't know what is life cycle, it knows Channel, and channel is backed by life cycle only. We can create multiple channel in any life project]
+ 
+Process [   ]
