@@ -16,6 +16,5 @@ Create Step templates [Templates like Verify deployment status, SPA service, SPA
  
 Lifecycle for this Space [taking different environments reference in sequence life cycles to be created, , this set-up is space level]
  
-Add projects [Each applications is a project. Create Channels with the help of life cycle. Project don't know what is life cycle, it knows Channel, and channel is backed by life cycle only. We can create multiple channel in any life project]
- 
+Add projects 
 Process [   ]
